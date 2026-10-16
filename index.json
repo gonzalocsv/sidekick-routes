@@ -1,0 +1,290 @@
+{
+  "format": 1,
+  "generated": "2026-10-15",
+  "commit": "local",
+  "routes": [
+    {
+      "slug": "chair-the-decision",
+      "title": "Chair the decision",
+      "summary": "Frame the question, hear the room, leave with a decision owned.",
+      "roles": [
+        "director",
+        "head of",
+        "vp",
+        "executive",
+        "coo",
+        "cto",
+        "leadership"
+      ],
+      "kinds": [
+        "workshop",
+        "briefing",
+        "status"
+      ],
+      "author": "sidekick",
+      "version": 3,
+      "verified": false,
+      "achievements": 5,
+      "tracks": 4,
+      "url": "routes/chair-the-decision/route.md",
+      "sha256": "285525d61491d7ec293e0f9e0342695ff403ed97725845f99cdb87b76f8e1d8c",
+      "commit": "local"
+    },
+    {
+      "slug": "close-the-deal",
+      "title": "Close the deal",
+      "summary": "Qualify hard, hold the price, and never leave without the next step.",
+      "roles": [
+        "sales",
+        "account executive",
+        "sdr",
+        "business development",
+        "founder"
+      ],
+      "kinds": [
+        "discovery",
+        "demo",
+        "negotiation",
+        "status"
+      ],
+      "author": "sidekick",
+      "version": 3,
+      "verified": false,
+      "achievements": 5,
+      "tracks": 4,
+      "url": "routes/close-the-deal/route.md",
+      "sha256": "2d1dbaa92b9e8258a518b57324f8d45340514ef0b610c011aa68bbe059206ba4",
+      "commit": "local"
+    },
+    {
+      "slug": "hire-well",
+      "title": "Hire well",
+      "summary": "Interviews that get the real example, hold the silence, and end with a clear next step.",
+      "roles": [
+        "hiring manager",
+        "recruiter",
+        "talent",
+        "hr",
+        "people",
+        "manager"
+      ],
+      "kinds": [
+        "interview"
+      ],
+      "author": "sidekick",
+      "version": 3,
+      "verified": false,
+      "achievements": 5,
+      "tracks": 3,
+      "url": "routes/hire-well/route.md",
+      "sha256": "ed816027a547e4890b7835d50231ba43d30e6799bbbb7f470f9125dee34fd841",
+      "commit": "local"
+    },
+    {
+      "slug": "hold-the-number",
+      "title": "Hold the number",
+      "summary": "No figure without a source, no concession without a trade.",
+      "roles": [
+        "cfo",
+        "finance",
+        "procurement",
+        "founder",
+        "sales"
+      ],
+      "kinds": [
+        "negotiation",
+        "discovery",
+        "status"
+      ],
+      "author": "sidekick",
+      "version": 3,
+      "verified": false,
+      "achievements": 5,
+      "tracks": 3,
+      "url": "routes/hold-the-number/route.md",
+      "sha256": "e9876fbe3f860e888c8837c735630e5f8bbff167b7237c6e9cc2e585056baec6",
+      "commit": "local"
+    },
+    {
+      "slug": "hold-the-plan",
+      "title": "Hold the plan",
+      "summary": "Scope, dates and risks said out loud, and traded, never absorbed.",
+      "roles": [
+        "project manager",
+        "program manager",
+        "delivery",
+        "pmo",
+        "scrum master"
+      ],
+      "kinds": [
+        "status",
+        "workshop",
+        "negotiation",
+        "briefing"
+      ],
+      "author": "sidekick",
+      "version": 3,
+      "verified": false,
+      "achievements": 5,
+      "tracks": 3,
+      "url": "routes/hold-the-plan/route.md",
+      "sha256": "1631d1673ecf92d57c3ac4a8b9aeb283b00a8244ab1d6ba9a88c613ab5dbf691",
+      "commit": "local"
+    },
+    {
+      "slug": "keep-the-customer",
+      "title": "Keep the customer",
+      "summary": "Renewals and reviews that find the risk early, own the escalation, and earn the expansion.",
+      "roles": [
+        "customer success",
+        "csm",
+        "account manager",
+        "support",
+        "onboarding"
+      ],
+      "kinds": [
+        "status",
+        "one_on_one",
+        "briefing",
+        "discovery"
+      ],
+      "author": "sidekick",
+      "version": 3,
+      "verified": false,
+      "achievements": 5,
+      "tracks": 4,
+      "url": "routes/keep-the-customer/route.md",
+      "sha256": "503b879984356f70eeb980f5e321006449951af914370b0aeb8160a7263867a9",
+      "commit": "local"
+    },
+    {
+      "slug": "lead-the-team",
+      "title": "Lead the team",
+      "summary": "Every 1:1 leaves with one clear ask, honest feedback, and a date.",
+      "roles": [
+        "team lead",
+        "manager",
+        "engineering manager",
+        "head of",
+        "supervisor"
+      ],
+      "kinds": [
+        "one_on_one",
+        "status"
+      ],
+      "author": "sidekick",
+      "version": 3,
+      "verified": false,
+      "achievements": 5,
+      "tracks": 4,
+      "url": "routes/lead-the-team/route.md",
+      "sha256": "4bb4db4a3639f11c21ee3c28e63b22fba58bd7c336133372502ccb6f9120dad7",
+      "commit": "local"
+    },
+    {
+      "slug": "run-the-account",
+      "title": "Run the account",
+      "summary": "Every brief leaves with an owner, a date and one number.",
+      "roles": [
+        "cmo",
+        "marketing",
+        "agency",
+        "account lead",
+        "brand"
+      ],
+      "kinds": [
+        "status",
+        "one_on_one",
+        "workshop",
+        "briefing"
+      ],
+      "author": "sidekick",
+      "version": 3,
+      "verified": false,
+      "achievements": 5,
+      "tracks": 4,
+      "url": "routes/run-the-account/route.md",
+      "sha256": "a2e075755059201e089fd3212e102fddc3c6964875c24953910f14c4a42386d6",
+      "commit": "local"
+    },
+    {
+      "slug": "run-the-ops",
+      "title": "Run the ops",
+      "summary": "Every status meeting ends with the blocker named, owned and dated.",
+      "roles": [
+        "operations",
+        "ops",
+        "coo",
+        "supply chain",
+        "service delivery",
+        "plant"
+      ],
+      "kinds": [
+        "status",
+        "briefing",
+        "workshop"
+      ],
+      "author": "sidekick",
+      "version": 3,
+      "verified": false,
+      "achievements": 5,
+      "tracks": 4,
+      "url": "routes/run-the-ops/route.md",
+      "sha256": "59923dee9d7967022c0e447018add401ab2b5411657a0f8848f55defa314444e",
+      "commit": "local"
+    },
+    {
+      "slug": "sell-the-room",
+      "title": "Sell the room",
+      "summary": "Walk in with a view, leave with a decision.",
+      "roles": [
+        "strategy",
+        "consulting",
+        "partner",
+        "principal",
+        "cmo",
+        "marketing"
+      ],
+      "kinds": [
+        "discovery",
+        "workshop",
+        "briefing",
+        "demo"
+      ],
+      "author": "sidekick",
+      "version": 3,
+      "verified": false,
+      "achievements": 5,
+      "tracks": 3,
+      "url": "routes/sell-the-room/route.md",
+      "sha256": "dcbb7aceb76d8e5bbb9995896495d7a6e88cfae503966a9bb76439764a8b1e2a",
+      "commit": "local"
+    },
+    {
+      "slug": "ship-the-roadmap",
+      "title": "Ship the roadmap",
+      "summary": "Discovery that finds the problem, and roadmap talks that say what you will not build.",
+      "roles": [
+        "product manager",
+        "product",
+        "engineering manager",
+        "tech lead",
+        "founder"
+      ],
+      "kinds": [
+        "discovery",
+        "workshop",
+        "demo",
+        "status"
+      ],
+      "author": "sidekick",
+      "version": 3,
+      "verified": false,
+      "achievements": 5,
+      "tracks": 4,
+      "url": "routes/ship-the-roadmap/route.md",
+      "sha256": "5b33a2ad68a304a2c24939ab281410c277523e09ab865a3e41f0c65a44aaa52d",
+      "commit": "local"
+    }
+  ]
+}

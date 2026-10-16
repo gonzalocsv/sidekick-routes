@@ -1,0 +1,40 @@
+# CI for the sidekick-routes repo: every pull request must lint; main regenerates index.json pinned to its commit.
+name: routes
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Lint every route
+        run: python tools/route_format.py lint routes/*/route.md
+  index:
+    if: github.event_name == 'push'
+    needs: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Build index.json pinned to this commit
+        run: |
+          python tools/route_format.py index routes \
+            --raw-base "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_SHA}" \
+            --commit "${GITHUB_SHA}" --verified verified.json --out index.json \
+            --site docs/index.html --repo "https://github.com/${GITHUB_REPOSITORY}"
+      - name: Commit the index and the site
+        run: |
+          git config user.name "routes-bot"
+          git config user.email "routes-bot@users.noreply.github.com"
+          git add index.json docs/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "index: ${GITHUB_SHA::7}"
+            git push
+          fi
